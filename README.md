@@ -8,7 +8,7 @@ API RESET REST simples para gerenciar alunos e professores
 
 ### Instalar dependências
 ```bash
-npm :
+npm i
 ```
 
 ### Iniciar o Servidor 
@@ -26,7 +26,7 @@ Abra o navegador em: `https://localhost:3000`
 | Método | Endpoints | Descrição |
 |--------|-----------|-----------|
 | GET | `/filmes` | Lista de todos os filmes |
-| GET | `/filmes/id:` | buscar um filme em id |
+| GET | `/filmes/:id` | buscar um filme em id |
 | POST | `/filmes` | Cria um novo filme|
 
 
@@ -35,7 +35,7 @@ Abra o navegador em: `https://localhost:3000`
 | Métodos | Endpoints | Descrição |
 |---------|-----------|-----------|
 | GET | `/series` | Lista de todos as series |
-| GET | `/series/id:` | busca uma serie pelo id |
+| GET | `/series/:id` | busca uma serie pelo id |
 | POST | `/series` | Cria uma nova serie |
 
 
